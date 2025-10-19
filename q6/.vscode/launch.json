@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(gdb) main_static",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/main_static",
+      "args": [],                          // 실행 후 터미널에서 직접 입력
+      "cwd": "${workspaceFolder}",
+      "MIMode": "gdb",
+      "stopAtEntry": false,
+      "console": "integratedTerminal"      // 표준입력(10 5) 받으려면 필수
+    }
+  ]
+}
