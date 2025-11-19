@@ -16,6 +16,7 @@ void error_handling(const char *message) {
     exit(1);
 }
 
+//파일 디렉토리 실습
 int main() {
     int fd;
     char buf[1024];
